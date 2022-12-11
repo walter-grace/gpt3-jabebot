@@ -4,19 +4,6 @@ from flask import Flask, request
 import os
 import openai
 
-# importing module
-import time
-
-
-# running loop from 0 to 4
-for i in range(0,5):
-
-# printing numbers
-  print(i)
-
-# adding 2 seconds time delay
-  time.sleep(2)
-
 
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
